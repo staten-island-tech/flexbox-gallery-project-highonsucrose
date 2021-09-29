@@ -2,4 +2,6 @@
     box-sizing: border-box;
     font-size: 100%;
     color: rgb(177, 255, 158);
+    margin: 100;
+    padding: 0;
 }
