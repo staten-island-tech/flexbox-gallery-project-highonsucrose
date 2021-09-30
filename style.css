@@ -1,7 +1,36 @@
 .header {
     box-sizing: border-box;
-    font-size: 100%;
+    font-size: 140%;
     color: rgb(177, 255, 158);
-    margin: 100;
+    margin: 0;
     padding: 0;
+    text-align: center;
 }
+
+body {
+    background-color: rgb(68, 68, 68);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+.parent {
+    flex-direction: column;
+}
+.card {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    flex-basis: auto;
+    border: solid rgb(177, 255, 158);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    color:rgb(177, 255, 158);
+    background-color: rgb(44, 44, 44);
+}
+h3 {
+    font-size: 150%;
+}
+
