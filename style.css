@@ -1,7 +1,7 @@
 .header {
     box-sizing: border-box;
-    font-size: 140%;
-    color: rgb(177, 255, 158);
+    font-size: 160%;
+    color: rgb(137, 216, 117);
     margin: 0;
     padding: 0;
     text-align: center;
@@ -12,25 +12,30 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 100%;
+    font-size: 62.5%;
 }
 .parent {
-    flex-direction: column;
+    justify-content: space-around;
 }
+
 .card {
     display: inline-flex;
     flex-direction: column;
+    
     flex-wrap: nowrap;
     text-align: center;
     flex-basis: auto;
-    border: solid rgb(177, 255, 158);
+    border: solid rgb(137, 216, 117);
     border-radius: 1rem;
     padding: 1rem;
     margin: 1rem;
-    color:rgb(177, 255, 158);
+    color:rgb(110, 172, 94);
     background-color: rgb(44, 44, 44);
 }
 h3 {
+    font-size: 225%;
+}
+p {
     font-size: 150%;
 }
 
