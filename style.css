@@ -6,11 +6,7 @@
     padding: 0;
     text-align: center;
     width: 100%;
-   
-    
-    
 }
-
 head, body {
     box-sizing: border-box;
     padding: 0;
@@ -25,8 +21,6 @@ head, body {
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-    
-
 }
 .card {
     border: solid rgb(137, 216, 117);
@@ -45,5 +39,4 @@ head, body {
 img {
     height: 15rem;
     border: solid rgb(22, 22, 22);
-
 }
