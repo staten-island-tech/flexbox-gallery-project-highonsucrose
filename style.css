@@ -6,8 +6,9 @@
     padding: 0;
     text-align: center;
     width: 100%;
-    background-color: rgb(53, 53, 53);
-    border: solid rgb(137, 216, 117);
+   
+    
+    
 }
 
 head, body {
@@ -16,6 +17,7 @@ head, body {
     margin: 0;
     font-size: 62.5%;
     background-color: rgb(44, 44, 44);
+    font-family: 'Nunito', sans-serif;
 }
 .parent {
     
@@ -28,7 +30,7 @@ head, body {
 }
 .card {
     border: solid rgb(137, 216, 117);
-    width: 30%;
+    width: 32%;
     text-align: center;
     flex-basis: 25%;
     font-size: 1.2rem;
@@ -38,6 +40,7 @@ head, body {
     padding: 1rem;
     flex-shrink: 1;
     margin: 0.5rem;
+    box-shadow: 2rem 2rem 1rem rgb(22, 22, 22);
 }
 img {
     height: 15rem;
