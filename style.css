@@ -6,6 +6,7 @@
     padding: 0;
     text-align: center;
     width: 100%;
+  
 }
 head, body {
     box-sizing: border-box;
@@ -33,7 +34,9 @@ head, body {
     color: rgb(137, 216, 117);
     padding: 1rem;
     flex-shrink: 1;
-    margin: 0.5rem;
+    transition: all 0.6s;
+    
+    margin: 1rem;
     box-shadow: 2rem 2rem 1rem rgb(22, 22, 22);
     
 }
@@ -45,12 +48,10 @@ img {
     color: rgb(97, 212, 212);
     border: solid rgb(97, 212, 212);
     box-shadow: 2rem 2rem 1rem rgb(55, 63, 85);
-    transform: scale(0.95);
+    transform: scale(0.985);
     
 
 }
-.header:hover {
-    color: rgb(97, 212, 212);
-}
+
 
 
