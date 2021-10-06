@@ -35,8 +35,22 @@ head, body {
     flex-shrink: 1;
     margin: 0.5rem;
     box-shadow: 2rem 2rem 1rem rgb(22, 22, 22);
+    
 }
 img {
     height: 15rem;
     border: solid rgb(22, 22, 22);
 }
+.card:hover {
+    color: rgb(97, 212, 212);
+    border: solid rgb(97, 212, 212);
+    box-shadow: 2rem 2rem 1rem rgb(55, 63, 85);
+    transform: scale(0.95);
+    
+
+}
+.header:hover {
+    color: rgb(97, 212, 212);
+}
+
+
