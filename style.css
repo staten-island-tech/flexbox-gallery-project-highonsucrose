@@ -1,43 +1,54 @@
-.header {
-    box-sizing: border-box;
-    font-size: 1.2rem;
-    color: rgb(137, 216, 117);
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    width: 100%;
-  
-}
-head, body {
+body, html * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-size: 62.5%;
+    
+}
+body {
     background-color: rgb(44, 44, 44);
+}
+h1 {
+    font-size: 3rem;
+    color: rgb(114, 217, 235);
+    text-align: center;
     font-family: 'Nunito', sans-serif;
 }
+h2 {
+    font-size: 2rem;
+    color: rgb(114, 217, 235);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.4rem;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
 .parent {
-    
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .card {
-    border: solid rgb(137, 216, 117);
     width: 32%;
     text-align: center;
     flex-basis: 25%;
-    font-size: 1.2rem;
+    
+    border: solid rgb(136, 223, 238);
     background-color: rgb(53, 53, 53);
     border-radius: 1rem;
-    color: rgb(137, 216, 117);
+    color: rgb(136, 223, 238);
+
     padding: 1rem;
-    flex-shrink: 1;
+    margin: 0.8rem;
+
     transition: all 0.6s;
-    
-    margin: 1rem;
-    box-shadow: 2rem 2rem 1rem rgb(22, 22, 22);
+    box-shadow: 2rem 1.8rem 1rem rgb(22, 22, 22);
     
 }
 img {
@@ -45,12 +56,14 @@ img {
     border: solid rgb(22, 22, 22);
 }
 .card:hover {
-    color: rgb(97, 212, 212);
-    border: solid rgb(97, 212, 212);
-    box-shadow: 2rem 2rem 1rem rgb(55, 63, 85);
+    color: rgb(166, 241, 248);
+    border: solid rgb(166, 241, 248);
+    box-shadow: 1.2rem 1.2rem 1rem rgb(65, 93, 91);
     transform: scale(0.985);
-    
 
+}
+img:hover {
+    opacity: 0.5;
 }
 
 
