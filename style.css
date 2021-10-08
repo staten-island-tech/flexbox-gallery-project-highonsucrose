@@ -8,13 +8,13 @@ body, html * {
 body {
     background-color: rgb(44, 44, 44);
 }
-h1 {
+.head {
     font-size: 3rem;
     color: rgb(114, 217, 235);
     text-align: center;
     font-family: 'Nunito', sans-serif;
 }
-h2 {
+.subhead {
     font-size: 2rem;
     color: rgb(114, 217, 235);
     text-align: center;
@@ -54,16 +54,22 @@ p {
 img {
     height: 15rem;
     border: solid rgb(22, 22, 22);
+    max-width:100%
 }
 .card:hover {
-    color: rgb(166, 241, 248);
-    border: solid rgb(166, 241, 248);
-    box-shadow: 1.2rem 1.2rem 1rem rgb(65, 93, 91);
+    color: rgb(200, 250, 255);
+    border: solid rgb(213, 250, 253);
+    box-shadow: 1.2rem 1.2rem 1rem rgb(42, 65, 63);
     transform: scale(0.985);
-
 }
 img:hover {
     opacity: 0.5;
+}
+h1:hover {
+    color:rgb(213, 250, 253);
+}
+h2:hover {
+    color:rgb(213, 250, 253);
 }
 
 
