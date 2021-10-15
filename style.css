@@ -13,12 +13,18 @@ body {
     color: rgb(114, 217, 235);
     text-align: center;
     font-family: 'Nunito', sans-serif;
+    background-color: rgb(22, 22, 22);
 }
 .subhead {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: rgb(114, 217, 235);
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(22, 22, 22);
+    padding-bottom: 1rem;
+    border-bottom: solid rgb(114, 217, 235);;
+    margin-bottom: 1rem;
+  
 }
 h3 {
     font-family: 'Nunito', sans-serif;
@@ -49,20 +55,22 @@ p {
 
     transition: all 0.6s;
     box-shadow: 2rem 1.8rem 1rem rgb(22, 22, 22);
-    
+    animation-duration: 3s;
+    animation-name: slidein;
 }
 img {
-    height: 15rem;
+    width: 95%;
+    height: auto;
     border: solid rgb(22, 22, 22);
     max-width:100%
 }
 .card:hover {
     color: rgb(200, 250, 255);
     border: solid rgb(213, 250, 253);
-    box-shadow: 1.2rem 1.2rem 1rem rgb(42, 65, 63);
+    box-shadow: 1.2rem 1.2rem 1rem rgb(161, 191, 194);
     transform: scale(0.985);
 }
-img:hover {
+.opacity:hover {
     opacity: 0.5;
 }
 h1:hover {
@@ -71,6 +79,90 @@ h1:hover {
 h2:hover {
     color:rgb(213, 250, 253);
 }
+@media screen and (max-width: 800px){
+    .card{
+        flex-basis: 30%;
+    }
+    img {
+        height: 10rem;
+
+    }
+    .disallowed {
+        flex-basis: 30%;
+    }
+    .head {
+        font-size: 2rem;
+    }
+    .subhead {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .card {
+        flex-basis: 40%;
+    }
+    img {
+        height: 7rem;
+    }
+    
+}
+.resources {
+    color: rgb(136, 223, 238);
+    font-size: 1rem;
+    padding: 0.9rem;
+    background-color: rgb(22, 22, 22);
+    border-top: solid rgb(136, 223, 238);
+    margin-top: 1rem;
+
+}
+
+.glow:hover {
+    color: rgb(213, 250, 253);
+    
+}
+.subhead2 {
+    font-size: 1.2rem;
+    color: rgb(114, 217, 235);
+    
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(22, 22, 22);
+}
+.disallowed {
+    width: 32%;
+    text-align: center;
+    flex-basis: 25%;
+    opacity: 0.5;
+    border: solid rgb(136, 223, 238);
+    background-color: rgb(53, 53, 53);
+    border-radius: 1rem;
+    color: rgb(136, 223, 238);
+
+    padding: 1rem;
+    margin: 0.8rem;
+
+    transition: all 0.6s;
+    box-shadow: 2rem 1.8rem 1rem rgb(22, 22, 22);
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+.disallowed:hover {
+    cursor: not-allowed;
+    color: rgb(53, 53, 53);
+}
+
+  
+  @keyframes slidein {
+    from {
+      margin-bottom: 100%;
+      
+    }
+  
+    to {
+      margin-bottom: 0%;
+      
+    }
+  }
+  
 
 
 
