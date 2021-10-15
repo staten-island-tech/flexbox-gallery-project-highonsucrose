@@ -14,6 +14,8 @@ body {
     text-align: center;
     font-family: 'Nunito', sans-serif;
     background-color: rgb(22, 22, 22);
+    animation-duration: 2s;
+    animation-name: fadein;
 }
 .subhead {
     font-size: 1.8rem;
@@ -24,13 +26,15 @@ body {
     padding-bottom: 1rem;
     border-bottom: solid rgb(114, 217, 235);;
     margin-bottom: 1rem;
+    animation-duration: 2s;
+    animation-name: fadein;
   
 }
-h3 {
+.cityname {
     font-family: 'Nunito', sans-serif;
     font-size: 1.4rem;
 }
-p {
+.imgvalue {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
@@ -58,7 +62,7 @@ p {
     animation-duration: 3s;
     animation-name: slidein;
 }
-img {
+.image, .specialimage {
     width: 95%;
     height: auto;
     border: solid rgb(22, 22, 22);
@@ -73,22 +77,19 @@ img {
 .opacity:hover {
     opacity: 0.5;
 }
-h1:hover {
+.head:hover {
     color:rgb(213, 250, 253);
 }
-h2:hover {
+.subhead:hover {
     color:rgb(213, 250, 253);
 }
 @media screen and (max-width: 800px){
-    .card{
+    .card, .specialcard{
         flex-basis: 30%;
     }
-    img {
+    .image, .specialimage {
         height: 10rem;
 
-    }
-    .disallowed {
-        flex-basis: 30%;
     }
     .head {
         font-size: 2rem;
@@ -98,10 +99,10 @@ h2:hover {
     }
 }
 @media screen and (max-width: 600px) {
-    .card {
+    .card, .specialcard{
         flex-basis: 40%;
     }
-    img {
+    .image, .specialimage{
         height: 7rem;
     }
     
@@ -115,6 +116,10 @@ h2:hover {
     margin-top: 1rem;
 
 }
+.glow {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
 
 .glow:hover {
     color: rgb(213, 250, 253);
@@ -127,7 +132,7 @@ h2:hover {
     font-family: 'Roboto', sans-serif;
     background-color: rgb(22, 22, 22);
 }
-.disallowed {
+.specialcard {
     width: 32%;
     text-align: center;
     flex-basis: 25%;
@@ -145,24 +150,45 @@ h2:hover {
     animation-duration: 3s;
     animation-name: slidein;
 }
-.disallowed:hover {
+.specialcard:hover {
     cursor: not-allowed;
-    color: rgb(53, 53, 53);
+    
 }
 
   
   @keyframes slidein {
     from {
-      margin-bottom: 100%;
+      margin-top: 300%;
       
     }
   
     to {
-      margin-bottom: 0%;
+      margin-top: 0%;
       
     }
   }
-  
+  @keyframes fadein {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  .learnmore {
+      margin-top: 1rem;
+      border: solid rgb(114, 217, 235);
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      width: 18rem;
+      height: 6rem;
+      color: rgb(44, 44, 44);
+      background-color: rgb(161, 191, 194);
+  }
+  .learnmore:hover {
+      background-color: rgb(161, 191, 194);
+      color: rgb(44, 44, 44);
+  }
 
 
 
