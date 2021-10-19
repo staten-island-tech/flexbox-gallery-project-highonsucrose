@@ -30,21 +30,21 @@ body {
     animation-name: fadein;
   
 }
-.cityname {
+.name {
     font-family: 'Nunito', sans-serif;
     font-size: 1.4rem;
 }
-.imgvalue {
+.subtext {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
-.parent {
+.gallery {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.card {
+.card, .specialcard {
     width: 32%;
     text-align: center;
     flex-basis: 25%;
@@ -85,10 +85,10 @@ body {
 }
 @media screen and (max-width: 800px){
     .card, .specialcard{
-        flex-basis: 30%;
+        flex-basis: 40%;
     }
     .image, .specialimage {
-        height: 10rem;
+        width: 10rem;
 
     }
     .head {
@@ -100,22 +100,14 @@ body {
 }
 @media screen and (max-width: 600px) {
     .card, .specialcard{
-        flex-basis: 40%;
+        flex-basis: 60%;
     }
     .image, .specialimage{
-        height: 7rem;
+        width: 7rem;
     }
     
 }
-.resources {
-    color: rgb(136, 223, 238);
-    font-size: 1rem;
-    padding: 0.9rem;
-    background-color: rgb(22, 22, 22);
-    border-top: solid rgb(136, 223, 238);
-    margin-top: 1rem;
 
-}
 .glow {
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
@@ -133,22 +125,10 @@ body {
     background-color: rgb(22, 22, 22);
 }
 .specialcard {
-    width: 32%;
-    text-align: center;
-    flex-basis: 25%;
+    
     opacity: 0.5;
-    border: solid rgb(136, 223, 238);
-    background-color: rgb(53, 53, 53);
-    border-radius: 1rem;
-    color: rgb(136, 223, 238);
-
-    padding: 1rem;
-    margin: 0.8rem;
-
-    transition: all 0.6s;
-    box-shadow: 2rem 1.8rem 1rem rgb(22, 22, 22);
-    animation-duration: 3s;
-    animation-name: slidein;
+    
+    
 }
 .specialcard:hover {
     cursor: not-allowed;
@@ -175,20 +155,32 @@ body {
           opacity: 1;
       }
   }
-  .learnmore {
-      margin-top: 1rem;
-      border: solid rgb(114, 217, 235);
-      border-radius: 0.5rem;
-      font-size: 1rem;
-      width: 18rem;
-      height: 6rem;
-      color: rgb(44, 44, 44);
-      background-color: rgb(161, 191, 194);
-  }
-  .learnmore:hover {
-      background-color: rgb(161, 191, 194);
-      color: rgb(44, 44, 44);
-  }
+.resources {
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(136, 223, 238);
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: rgb(22, 22, 22);
+    border-top: solid rgb(136, 223, 238);
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.links {
+    width: 45%;
+    text-align: center;
+    flex-basis: 25%;
+    padding: 0.5rem;
+}
+.link {
+    font-size: 1rem;
+    color: rgb(200, 250, 255);
+}
+.link:visited {
+    color: rgb(200, 250, 255);
+}
 
 
 
