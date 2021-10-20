@@ -9,7 +9,7 @@ body {
     background-color: rgb(44, 44, 44);
 }
 .head {
-    font-size: 3rem;
+    font-size: 2.7rem;
     color: rgb(114, 217, 235);
     text-align: center;
     font-family: 'Nunito', sans-serif;
@@ -18,7 +18,7 @@ body {
     animation-name: fadein;
 }
 .subhead {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: rgb(114, 217, 235);
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -180,6 +180,9 @@ body {
 }
 .link:visited {
     color: rgb(200, 250, 255);
+}
+.image:hover, .specialimage:hover {
+    opacity: 0.6;
 }
 
 
