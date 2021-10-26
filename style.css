@@ -24,7 +24,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: rgb(22, 22, 22);
     padding-bottom: 1rem;
-    border-bottom: solid rgb(114, 217, 235);;
+    border-bottom: solid rgb(114, 217, 235);
     margin-bottom: 1rem;
     animation-duration: 2s;
     animation-name: fadein;
